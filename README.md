@@ -5,15 +5,15 @@ It needs to run as root.
 
 ##### ./dpkg-depickle.py [filename][filename]
 
-#####no args:  looks for previously created local manifest in current directory. See sample manifest in project. Compares localhost against manifest.
+##### no args:  looks for previously created local manifest in current directory. See sample manifest in project. Compares localhost against manifest.
 
-#####one filename arg:  compares local manifest against filename
+##### one filename arg:  compares local manifest against filename
 
-#####two filename args: compares two manifest files
+##### two filename args: compares two manifest files
 
-#####files must be in dpkg -l > outfile  format
+##### files must be in dpkg -l > outfile  format
 
-#####typical output:
+##### typical output:
 
       ./dpkg-depickle.py
          ... Manifest directory .
